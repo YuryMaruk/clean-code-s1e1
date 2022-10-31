@@ -1,5 +1,5 @@
 /* Basic Style */
-.page {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -12,11 +12,11 @@
     text-align: right;
 }
 
-.header-img {
+.header__img {
     width: 100%;
 }
 
-.info {
+.header__link {
     font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task__row__wrapper {
   display: flex;
 }
 
@@ -153,7 +153,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks .label {
+#completed__tasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -163,11 +163,11 @@ li > input[type="text"] {
   display: none;
 }
 
-.ul .edit-mode input[type=text] {
+.ul .edit__mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.ul .edit-mode .label {
+.ul .edit__mode .label {
   display: none;
 }
